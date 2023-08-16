@@ -21,7 +21,7 @@ const Footer: React.FC = () => {
         </a>
       </div>
       <span className='text-gray-900 font-semibold'>
-        Build by React+Typescript and TailwindCSS
+        Built with React+Typescript and TailwindCSS
       </span>
       <span className='text-gray-900 font-semibold'>
         Copyright ©2023 All right reserved
