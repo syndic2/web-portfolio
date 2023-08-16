@@ -3,7 +3,7 @@ import { BsLinkedin, BsGithub } from 'react-icons/bs';
 
 const Footer: React.FC = () => {
   return (
-    <div className='flex flex-col items-center gap-4'>
+    <div className='flex flex-col items-center gap-4 bg-orange-200 p-8'>
       <div className='flex gap-5'>
         <a
           href='https://www.linkedin.com/in/jonathan-sugianto-843b561a4'
@@ -20,7 +20,10 @@ const Footer: React.FC = () => {
           <BsGithub size={25} />
         </a>
       </div>
-      <span className='text-gray-900'>
+      <span className='text-gray-900 font-semibold'>
+        Build by React+Typescript and TailwindCSS
+      </span>
+      <span className='text-gray-900 font-semibold'>
         Copyright ©2023 All right reserved
       </span>
     </div>
